@@ -1,4 +1,6 @@
 ---
+const redirect = () => Astro.redirect('/')
+if (Math.random() > 0) return redirect()
 ---
 
 <html lang="en">
